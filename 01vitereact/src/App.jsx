@@ -47,3 +47,20 @@ export default App
  * let [counter, setCounter ] = useState(15);
  * yahan pe React ek feature deta hai ki hooks se sarre jagah pe changes kiye jaa sakte hai
 */
+
+
+
+/** const addValue = ()=>{
+    console.log("clicked",counter);
+    if(counter < 20 )
+    setCounter(counter+1);
+    setCounter(counter+1);
+    setCounter(counter+1);
+    setCounter(counter+1);
+    //Yahan pe values ko useState Batches mein bhejti hai so values line by line update nahi hoti 
+    //Agar aise situation hai toh
+    setCounter(counter => counter + 1);
+    //Yehan pe callback ke through aata hai so complete hone ke baad dusra call hota hai
+    else 
+    setCounter(counter);
+  } */
